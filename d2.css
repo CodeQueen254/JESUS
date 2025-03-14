@@ -247,5 +247,78 @@ animation:words 20s infinite
     @media screen and (max-width: 800px) {
         .left, .main, .right {
           width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+
+@media (min-width: 600px) and (max-width: 900px) {  
+    header {  
+        padding: 1rem 5%;  
+    }  
+
+    .logo {  
+        font-size: 2.5rem;  
+    }  
+
+    nav a {  
+        font-size: 1.5rem;  
+        margin-left: 3rem;  
+    }  
+
+    .home-content h1 {  
+        font-size: 4.5rem;  
+    }  
+
+    .home-content p {  
+        font-size: 1.8rem;  
+    }  
+
+    .btn {  
+        font-size: 1.4rem;  
+    }  
+
+    .home-img img {  
+        width: 50vh;  
+    }  
+}  
+
+/* Media query for mobile devices (max-width: 599px) */  
+@media (max-width: 599px) {  
+    header {  
+        padding: 0.5rem 3%;  
+    }  
+
+    .logo {  
+        font-size: 2rem;  
+    }  
+
+    nav a {  
+        font-size: 1.2rem;  
+        margin-left: 2rem;  
+    }  
+
+    .home-content h1 {  
+        font-size: 3.5rem;  
+    }  
+
+    .home-content p {  
+        font-size: 1.5rem;  
+    }  
+
+    .btn {  
+        padding: 0.7rem 2rem;  
+        font-size: 1.2rem;  
+    }  
+
+    .home-img img {  
+        width: 40vh;  
+        margin-top: 3rem;  
+    }  
+
+    .home-content h3 {  
+        font-size: 2rem;  
+    }  
+
+    section {  
+        padding: 3rem 5%;  
+    }  
+}  
        
  
