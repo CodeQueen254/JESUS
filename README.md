@@ -282,15 +282,21 @@ animation:words 20s infinite
     }
     
 
-    @media (min-width: 576px ){
+    @media (min-width: 320px ){
         .home-img img{
             width:80px;
             margin-top:2rem;
+        }
+         body{
+            width:100%;
         }
     }
     @media screen and (max-width: 800px) {
         .left, .main, .right {
           width: 100%;  
+        }
+        body{
+            width:100%;
         }}
        
  
